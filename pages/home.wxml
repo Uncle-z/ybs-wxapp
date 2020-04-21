@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<view>
+  <van-image
+    width="100%"
+    height="15rem"
+    fit="contain"
+    src="https://weapp-static.mifengchengshi.com/ybsrmt/ldimg/shot.jpg"
+  />
+  <van-grid gutter="{{ 10 }}">
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="要闻"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="直播"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="视频"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="电视"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="ai问答"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="电视"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="电视"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="电视"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="广播"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="报纸"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="问事"/>
+    <van-grid-item icon-class="menu-icon" url="" icon="photo-o" text="爆料"/>
+  </van-grid>
+  <view class="list">
+    <van-card
+      desc="4月是国家“打击欺诈骗保 维护基金安全”集中宣传月。元宝山区医疗保障局认真贯彻落实市医疗保障局安排部署..."
+      desc-class="van-multi-ellipsis--l3"
+      title="元宝山区医保局启动“打击欺诈骗保 维护基金安全”集中宣传月活动"
+      title-class="van-ellipsis"
+      thumb="{{ imageURL }}"
+      thumb-link=""
+    />
+    <van-card
+      desc="2020年是扫黑除恶专项斗争“深挖根治”决战决胜之年，是“长效常治”开局起步之年..."
+      desc-class="van-multi-ellipsis--l3"
+      title="元宝山区司法局“点线面”联动助力扫黑除恶决战决胜"
+      title-class="van-ellipsis"
+      thumb="{{ imageURL }}"
+      thumb-link=""
+    />
+    <van-card
+      desc="4月2日至3日，人民银行元宝山区支行联合元宝山区市场监督管理局对辖区祭祀用品市场违规使用人民币图样情况进行了专项整治..."
+      desc-class="van-multi-ellipsis--l3"
+      title="人民银行元宝山区支行联合市场监管局开展违规使用人民币图样专项整治工作"
+      title-class="van-ellipsis"
+      thumb="{{ imageURL }}"
+      thumb-link=""
+    />
+    <van-card
+      desc="随着气温回升，农事活动增加，生产生活、上坟祭祀等野外用火也增多，森林防火形势严峻..."
+      desc-class="van-multi-ellipsis--l3"
+      title="元宝山区森林公安局依法从严查处违规野外用火行为"
+      title-class="van-ellipsis"
+      thumb="{{ imageURL }}"
+      thumb-link=""
+    />
+  </view>
+  <view style="height: 80px;"></view>
+  <van-tabbar active="{{ active }}" bind:change="onChange">
+    <van-tabbar-item icon="shop">首页</van-tabbar-item>
+    <van-tabbar-item icon="service">服务</van-tabbar-item>
+    <van-tabbar-item icon="add-square">矩阵</van-tabbar-item>
+    <van-tabbar-item icon="manager">我的</van-tabbar-item>
+  </van-tabbar>
+</view>

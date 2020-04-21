@@ -1,0 +1,17 @@
+/**index.wxss**/
+page{
+    background-color: #F7F8FA;
+}
+.list{
+    margin: 15px;
+}
+.card-title{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.desc-title{
+    font-size: 14px;
+}
+.menu-icon{
+  color: #f00;
+}
